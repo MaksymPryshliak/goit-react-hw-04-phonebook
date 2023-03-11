@@ -1,0 +1,27 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px
+}
+
+.contactInput {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.formButton {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+} 
+.formButton:hover {
+    background-color: black;
+    color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
