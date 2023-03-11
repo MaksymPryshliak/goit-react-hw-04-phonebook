@@ -13,7 +13,7 @@ export const ContactList = ({contacts, handleDelete}) => (
 )
 
 ContactList.propTypes = {
-    contact: PropTypes.arrayOf(PropTypes.exact({
+    contacts: PropTypes.arrayOf(PropTypes.exact({
         id: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         number: PropTypes.string.isRequired,
